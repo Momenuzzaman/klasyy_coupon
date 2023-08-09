@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .circle {
+    @apply bg-white
+    w-[50px]
+    h-[50px]
+rounded-full 
+absolute
+top-1/2
+-translate-y-1/2;
+  }
+}
